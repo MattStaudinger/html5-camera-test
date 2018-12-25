@@ -1,4 +1,4 @@
-# HTML-camera - 
+# HTML-camera React & Express
 
 ## The project
 
@@ -8,8 +8,8 @@ A fullstack web app working with the html getusermedia-method in React, using ca
 ## Installation instructions:
 to clone and run the project
 
-* $ git clone https://matthiasstaudinger@bitbucket.org/mieterengelgmbh/camera-challenge-staudinger.git
-* $ cd camera-challenge-staudinger
+* $ git clone https://github.com/MattStaudinger/html5_camera-react-express.git
+* $ cd html5-camera-test
 * $ npm install
 * $ cd server
 * $ touch .env
