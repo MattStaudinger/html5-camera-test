@@ -5,7 +5,7 @@
 A fullstack web app working with the html getusermedia-method in React, using canvas for capturing a frame of the web-or mobile camera, sending it to the backend, converting it to pdf and sending the pdf as attachment via mail. This feature was part of a coding challenge for a company.
 
 
-## Installation instructions:
+## Installation instructions
 to clone and run the project
 
 * $ git clone https://github.com/MattStaudinger/html5_camera-react-express.git
