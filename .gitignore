@@ -1,0 +1,31 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# IntelliJ project files
+.idea
+
+# Dependencies
+node_modules
+/client/node_modules
+/server/node_modules
+
+# Test coverage
+/coverage
+
+# Production files
+/server/dist
+
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables should NEVER be published
+/server/.env
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
+
+/client/build
+.DS_Store
+

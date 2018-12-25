@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.info {
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #5776e9;
+  color: white; }
+
+.info.info-danger {
+  background-color: #e73f3f; }
+
+.App {
+  height: 101vh; }
+
+.add-document {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  background-color: #008f98;
+  color: white;
+  height: 101vh; }
+  .add-document h2 {
+    font-size: 1em;
+    color: #3f3f3f; }
+  .add-document .fa-circle {
+    font-size: 4em; }
+  .add-document .fa-circle:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+    color: #a8a8a8;
+    transition: color 0.3s; }
+  .add-document .submit-btn {
+    display: block;
+    color: #fff6f6;
+    cursor: pointer;
+    /* / "hand" cursor / */
+    position: absolute;
+    bottom: 50px;
+    left: 50vw;
+    z-index: 1; }
+  .add-document .camera-frame {
+    height: 100vh; }
+  .add-document .capture-frame {
+    visibility: hidden;
+    z-index: -1; }
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #008f98; }
