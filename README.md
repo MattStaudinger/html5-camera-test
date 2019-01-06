@@ -15,8 +15,9 @@ to clone and run the project
 * $ touch .env
 necessary enviromental-variables in the .env-file:
 PORT
-GMAIL_MAIL
-GMAIL_PW
+GMAIL_MAIL (the mail from where the pdf will be sent)
+GMAIL_PW (the password of the mail-account)
+MAILTO (the mailadress which receives the pdf)
 
 
 
