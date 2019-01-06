@@ -47,7 +47,7 @@ router.post("/sendPicture", (req, res, next) => {
   transporter
     .sendMail({
       from: "The user ABC",
-      to: "coding-challenge@mieterengel.de",
+      to: process.env.MAILTO,
       subject: subject,
       text: message,
       html: message,
