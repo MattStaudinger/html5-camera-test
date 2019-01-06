@@ -13,11 +13,16 @@ to clone and run the project
 * $ npm install
 * $ cd server
 * $ touch .env
-necessary enviromental-variables in the .env-file:
-PORT
-GMAIL_MAIL (the mail from where the pdf will be sent)
-GMAIL_PW (the password of the mail-account)
-MAILTO (the mailadress which receives the pdf)
+* necessary enviromental-variables in the .env-file:
+ 
+    PORT
+    
+    GMAIL_MAIL (the mail from where the pdf will be sent)
+    
+    GMAIL_PW (the password of the mail-account)
+    
+    MAILTO (the mailadress which receives the pdf)
+    
 
 
 
